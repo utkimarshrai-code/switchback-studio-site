@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Switchback Studio</title>
+<meta name="description" content="Get in touch with Switchback Studio about a Content Basecamp or Caption Sprint.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="mark">▲</span> Switchback Studio</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" style="padding-bottom:70px;">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1>Tell me about<br>your business.</h1>
+    <p class="lead">Fill in the form, or reach out directly. Expect a reply within one to two days.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="grid-2">
+      <div>
+        <!--
+          STEP-BY-STEP TO MAKE THIS FORM WORK (free, no code):
+          1. Go to formspree.io and create a free account.
+          2. Click "New Form", name it "Switchback contact", copy the
+             endpoint URL it gives you (looks like
+             https://formspree.io/f/xxxxxxxx).
+          3. Replace YOUR_FORM_ID below with the part after /f/.
+          4. Save and re-upload this file. Submissions will arrive at
+             the email you signed up with — no server needed.
+        -->
+        <form class="stack" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="business">Business name</label>
+            <input type="text" id="business" name="business">
+          </div>
+          <div class="field">
+            <label for="cemail">Email address</label>
+            <input type="email" id="cemail" name="email" required>
+          </div>
+          <div class="field">
+            <label for="msg">What do you need?</label>
+            <textarea id="msg" name="message" placeholder="Tell me about your business and what you'd like help with." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+      <div>
+        <div class="note-box" style="margin-bottom:24px;">
+          <strong>How payment works.</strong> Projects are booked and paid through Fiverr, which keeps the payment process simple for clients anywhere — including handling currency conversion. After your message, you'll get a link to the exact gig.
+        </div>
+        <h3>Direct contact</h3>
+        <p class="muted">Email: <a href="mailto:hello@switchbackstudio.example">hello@switchbackstudio.example</a><br>
+        WhatsApp: <a href="https://wa.me/977XXXXXXXXX">+977 XX-XXX-XXXX</a></p>
+        <h3 style="margin-top:24px;">Response time</h3>
+        <p class="muted">Messages are answered within one to two business days, Sunday through Friday.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="brand" style="margin-bottom:10px;"><span class="mark">▲</span> Switchback Studio</p>
+        <p class="muted" style="max-width:34ch; color:var(--snow); opacity:.7;">AI-assisted content for small businesses, run as a one-person studio based in Nepal.</p>
+      </div>
+      <ul class="foot-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Switchback Studio.</span>
+      <span>Built on a $0 budget — and that's the point.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
