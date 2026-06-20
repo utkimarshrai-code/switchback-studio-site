@@ -126,14 +126,16 @@
           MailerLite → Forms → Create form → Embedded → Copy code → paste here.
           Leaving the placeholder action below will not collect emails yet.
         -->
-        <form class="stack" action="#" method="post">
-          <div class="field">
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required>
-          </div>
-          <button type="submit" class="btn btn-primary">Send me the Trailhead Pack</button>
-          <p class="muted" style="font-size:.82rem;">No spam. Unsubscribe anytime. This form needs to be connected to MailerLite — see the setup notes shared with this site.</p>
-        </form>
+        <!-- MailerLite Universal -->
+        <script>
+            (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+                .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+                    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+                        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+                            ml('account', '2459747');
+                            </script>
+                            <!-- End MailerLite Universal -->
+                            <div class="ml-embedded" data-form="4tHHGU"></div>-->
       </div>
     </div>
   </div>
